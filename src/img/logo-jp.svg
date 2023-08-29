@@ -1,0 +1,20 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 38" width="400" height="38">
+	<title>Novo Projeto</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 35px;fill: #000000;font-weight: 700;font-family: "TitilliumWeb-Bold", "Titillium Web" } 
+		.t1 { font-size: 40px;fill: #000000;font-weight: 700;font-family: "TitilliumWeb-Bold", "Titillium Web" } 
+	</style>
+	<text id="João Paulo Web" style="transform: matrix(1.138,0,0,1.138,76,34.586)" >
+		<tspan x="0" y="0" class="t0">J</tspan><tspan  y="0" class="t0">o</tspan><tspan  y="0" class="t0">ã</tspan><tspan  y="0" class="t0">o</tspan><tspan  y="0" class="t0"> </tspan><tspan  y="0" class="t0">P</tspan><tspan  y="0" class="t0">a</tspan><tspan  y="0" class="t0">u</tspan><tspan  y="0" class="t0">l</tspan><tspan  y="0" class="t0">o</tspan><tspan  y="0" class="t0"> </tspan><tspan  y="0" class="t0">W</tspan><tspan  y="0" class="t0">e</tspan><tspan  y="0" class="t0">b</tspan><tspan  y="0" class="t0">
+</tspan>
+	</text>
+	<text id="&lt;/" style="transform: matrix(1.211,0,0,1.211,24.579,34.579)" >
+		<tspan x="0" y="0" class="t1">&lt;</tspan><tspan  y="0" class="t1">/
+</tspan>
+	</text>
+	<text id="&gt;" style="transform: matrix(1.275,0,0,1.275,346.497,35)" >
+		<tspan x="0" y="0" class="t1">&gt;
+</tspan>
+	</text>
+</svg>
