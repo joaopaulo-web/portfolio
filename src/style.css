@@ -17,7 +17,8 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 620px;
+    gap: 660px;
+    margin: 50px 0 150px 0;
 }
 .logo{
     width: 240px;
@@ -25,6 +26,7 @@ a{
 }
 .menu-nav1{
     font-weight: 700;
+    font-size: 1.3rem;
 }
 .menu-nav2{
     display: flex;
@@ -32,4 +34,60 @@ a{
 }
 .menu-item{
     font-weight: 600;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.content-main{
+    width: 60%;
+}
+.content-header{
+    font-size: 2.5rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.italic{
+    font-style: italic;
+}
+.content-paragraph{
+    text-transform: capitalize;
+    width: 77%;
+    text-align: justify;
+    margin-bottom: 35px;
+}
+.content-col1{
+
+}
+.content-col2{
+    display: flex;
+    gap: 15px;
+}
+.sociais-icon{
+    width: 35px;
+}
+.content-profile{
+    width: 50%;
+}
+.img-none{
+    display: none;
+}
+.icons-skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills-header{
+    margin: 0 77px 35px 77px;
+    font-weight: 600;
+    border-bottom: 1px solid;
+}
+.icons-skills{
+    display: flex;
+    gap: 106px;
+}
+.skills{
+    width: 70px;
 }
