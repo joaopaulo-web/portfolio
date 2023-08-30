@@ -18,7 +18,7 @@ a{
     align-items: center;
     justify-content: center;
     gap: 660px;
-    margin: 50px 0 150px 0;
+    margin: 50px 0 140px 0;
 }
 .logo{
     width: 240px;
@@ -49,9 +49,6 @@ a{
     width: 80%;
     margin-bottom: 25px;
 }
-.italic{
-    font-style: italic;
-}
 .content-paragraph{
     text-transform: capitalize;
     width: 77%;
@@ -78,15 +75,62 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 106px;
+    margin-bottom: 35px;
 }
-.skills-header{
+.project1{
+
+}
+.project1-header{
+    margin: 0;
+    font-size: 1.5rem;
+}
+.project1-texts{
+    width: 450px;
+}
+.project1-text{
+    width: 100%;
+    text-align: justify;
+    text-transform: capitalize;
+}
+.project1-btns{
+    display: flex;
+    gap: 20px;
+}
+.btn1, .btn2{
+    font-weight: 700;
+    padding: 7px 10px;
+    color: #000000;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 80px;
+    gap: 10px;
+}
+.git-branco,.go-preto{
+    width: 40px;
+}
+.container-project1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.project1-img{
+    width: 450px;
+    height: 260px;
+    border: 2px solid;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.skills-header, .projects-header{
     margin: 0 77px 35px 77px;
     font-weight: 600;
     border-bottom: 1px solid;
 }
-.icons-skills{
-    display: flex;
-    gap: 106px;
+.projects-header{
+    margin: 0 77px 35px 77px;
 }
 .skills{
     width: 70px;
