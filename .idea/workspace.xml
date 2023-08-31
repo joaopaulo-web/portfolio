@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a13cfee-d3b9-4082-a82e-684fbf9fa5f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/img/github-branco.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bubble.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/bubble.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/docker-svgrepo-com.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/docker-svgrepo-com.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/git-hub-branco.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +54,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/css" />
+      <recent name="$PROJECT_DIR$/src/js" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
@@ -61,7 +69,8 @@
       <updated>1693317706035</updated>
       <workItem from="1693317707083" duration="1449000" />
       <workItem from="1693328395637" duration="3047000" />
-      <workItem from="1693393355234" duration="598000" />
+      <workItem from="1693393355234" duration="18710000" />
+      <workItem from="1693478154906" duration="1134000" />
     </task>
     <servers />
   </component>

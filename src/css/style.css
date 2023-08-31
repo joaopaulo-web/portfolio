@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap');
 /*Fonte principal do site: font-family: 'Titillium Web', sans-serif; */
 
 :root{
     --main-letters-color: black;
+    --main-p-color: #282828;
 }
 *{
+    margin: 0;
+    padding: 0;
     font-family: "Titillium Web", sans-serif;
     scroll-behavior: smooth;
+}
+body {
+    background: linear-gradient(90deg, #ffffff, #ececec);
 }
 a{
     text-decoration: none;
@@ -14,11 +20,15 @@ a{
 }
 .nav-container{
     width: 100%;
+    height: 80px;
     display: flex;
+    position: fixed;
     align-items: center;
     justify-content: center;
     gap: 660px;
-    margin: 50px 0 140px 0;
+    background: linear-gradient(90deg, #ffffff, #ececec);
+    z-index: 99;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 3px 3px 0;
 }
 .logo{
     width: 240px;
@@ -34,6 +44,9 @@ a{
 }
 .menu-item{
     font-weight: 600;
+}
+.divider{
+    padding-bottom: 240px;
 }
 .content{
     display: flex;
@@ -51,12 +64,11 @@ a{
 }
 .content-paragraph{
     text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1.2rem;
     width: 77%;
     text-align: justify;
     margin-bottom: 35px;
-}
-.content-col1{
-
 }
 .content-col2{
     display: flex;
@@ -67,6 +79,30 @@ a{
 }
 .content-profile{
     width: 50%;
+}
+.about-me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 63px;
+    margin-bottom: 35px;
+}
+.about-img{
+    width: 430px;
+    border-radius: 30px;
+}
+.sub-title-txt{
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: var(--main-letters-color);
+}
+.about-txt{
+    width: 50%;
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-align: justify;
+    color: var(--main-p-color);
+    text-transform: capitalize;
 }
 .img-none{
     display: none;
@@ -82,16 +118,17 @@ a{
 
 }
 .project1-header{
-    margin: 0;
+    margin-bottom: 5px;
     font-size: 1.5rem;
 }
 .project1-texts{
     width: 450px;
 }
 .project1-text{
-    width: 100%;
+    width: 90%;
     text-align: justify;
     text-transform: capitalize;
+    font-weight: 300;
 }
 .project1-btns{
     display: flex;
@@ -115,16 +152,21 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
+    margin-bottom: 35px;
 }
-.project1-img{
+.clip{
     width: 450px;
-    height: 260px;
+    height: 230px;
     border: 2px solid;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
+    cursor: pointer;
 }
-.skills-header, .projects-header{
+.project2-img{
+    display: none;
+}
+.skills-header, .projects-header, .about-header,.contact-header{
     margin: 0 77px 35px 77px;
     font-weight: 600;
     border-bottom: 1px solid;
@@ -133,5 +175,38 @@ a{
     margin: 0 77px 35px 77px;
 }
 .skills{
+    cursor: pointer;
     width: 70px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.contact-sub-header{
+    margin-bottom: 35px;
+}
+.icons-contact{
+    width: 60px;
+    padding-bottom: 15px;
+}
+.icons-contact1{
+    width: 60px;
+    padding-bottom: 23px;
+}
+.contact-icons{
+    display: flex;
+    gap: 200px;
+}
+.contact-whats,.contact-email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.contact-txt {
+    color: var(--main-p-color);
+    text-transform: none;
 }

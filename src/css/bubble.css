@@ -1,6 +1,3 @@
-body {
-    background: linear-gradient(90deg, #ffffff, #ececec);
-}
 .slider-thumb::before {
     content: "";
     width: 350px;
