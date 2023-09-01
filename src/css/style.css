@@ -84,7 +84,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 63px;
+    gap: 31px;
     margin-bottom: 35px;
 }
 .about-img{
@@ -118,8 +118,7 @@ a{
 
 }
 .project1-header{
-    margin-bottom: 5px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 .project1-texts{
     width: 450px;
@@ -129,6 +128,15 @@ a{
     text-align: justify;
     text-transform: capitalize;
     font-weight: 300;
+}
+.uses{
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+.project1-uses{
+    font-weight: 600;
+    cursor: pointer;
 }
 .project1-btns{
     display: flex;
@@ -169,7 +177,7 @@ a{
 .skills-header, .projects-header, .about-header,.contact-header{
     margin: 0 77px 35px 77px;
     font-weight: 600;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #282828;
 }
 .projects-header{
     margin: 0 77px 35px 77px;
@@ -209,4 +217,41 @@ a{
 .contact-txt {
     color: var(--main-p-color);
     text-transform: none;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background: var(--main-p-color);
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 -3px 7px 0;
+}
+.footer-txt{
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px;
+}
+.footer-divider{
+    background: rgba(236, 236, 236, 0.58);
+    width: 1px;
+    height: 120px;
+    border: none;
+}
+.footer-icons{
+    width: 35px;
+    display: flex;
+    gap: 20px;
+}
+.footer-copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(236, 236, 236, 0.58);
+    background: var(--main-p-color);
+    margin-top: 50px;
+    gap: 850px;
+    height: 60px;
 }

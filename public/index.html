@@ -6,21 +6,23 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>João Paulo - Web Frontend</title>
+    <link rel="shortcut icon" href="../src/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="stylesheet" href=/src/css/hovers.css>
     <link rel="stylesheet" href=/src/css/bubble.css>
     <link rel="stylesheet" href=/src/css/transition.css>
 </head>
 <body>
+<section id="home"></section>
     <div class="nav-container">
         <nav class="menu-nav1">
             <a href="#" class="logo-nav hvr-underline-from-left"> &lt;/Jo&atilde;o Paulo Web&gt; </a>
         </nav>
         <nav class="menu-nav2">
-            <a href="#" class="menu-item hvr-underline-from-left">Início</a>
+            <a href="#home" class="menu-item hvr-underline-from-left">Início</a>
             <a href="#skill" class="menu-item hvr-underline-from-left">Habilidades</a>
-            <a href="#" class="menu-item hvr-underline-from-left">Projetos</a>
-            <a href="#" class="menu-item hvr-underline-from-left">Contato</a>
+            <a href="#project" class="menu-item hvr-underline-from-left">Projetos</a>
+            <a href="#contact" class="menu-item hvr-underline-from-left">Contato</a>
         </nav>
     </div>
 
@@ -60,9 +62,9 @@
             <p class="about-txt">
                 <span class="sub-title-txt">Muito Prazer!</span> <br> Sou um Desenvolvedor Front-end apaixonado por aprender e resolver desafios. Minha jornada autodidata é prova do meu comprometimento com o aprendizado contínuo. Desde criança, sou fascinado por tecnologia, e essa paixão me impulsionou a realizar uma bem-sucedida migração de carreira. Minha dedicação em acompanhar as últimas novidades do mercado demonstra minha determinação em me manter atualizado e envolvido no cenário tecnológico em constante evolução. Estou entusiasmado para aplicar minha paixão e experiência em soluções inovadoras como parte de uma equipe dinâmica.
             </p>
+            <section id="skill"></section>
     </div>
-
-    <div class="container-skills" id="skill">
+    <div class="container-skills">
         <h2 class="skills-header">Habilidades</h2>
         <div class="icons-skills">
             <img class="skills hvr-float" src="/src/img/html-124-svgrepo-com.svg" alt="HTML5" title="HTML5">
@@ -73,6 +75,7 @@
             <img class="skills hvr-float" src="/src/img/docker-svgrepo-com.svg" alt="Docker" title="Docker">
             <img class="skills hvr-float"  src="/src/img/magento-svgrepo-com.svg" alt="Magento 2" title="Magento 2">
         </div>
+        <section id="project"></section>
     </div>
 
     <div class="container-projects">
@@ -81,18 +84,23 @@
             <div class="container-project1">
                 <video class="clip" src="../src/img/clip1.mp4" loop></video>
                 <div class="project1-texts">
-                    <h3 class="project1-header">Landing Page Design House</h3>
+                    <h3 class="project1-header">Site Empresarial | Design House</h3>
                     <p class="project1-text">projeto inovador para a renomada empresa Design House, que consiste na criação de marcas exclusivas para empresas. O projeto foi meticulosamente construído utilizando apenas HTML e CSS, demonstrando a minha habilidade em unir a estética visual com a funcionalidade. Cada detalhe do design foi cuidadosamente pensado para garantir a singularidade de cada marca, refletindo a identidade e os valores individuais de cada cliente.</p>
                     <div class="project1-btns">
-                        <a class="btn1" href="">Código <img class="git-branco" src="../src/img/github-branco.svg" alt="GitHub"></a>
-                        <a class="btn2" href="">Demo <img class="go-preto" src="../src/img/go.svg" alt="Site Live"></a>
+                        <div class="uses">
+                            <p class="project1-uses">HTML5</p>
+                            <p class="project1-uses">CSS3</p>
+                            <span class="tec-divider"> | </span>
+                            <a class="btn1" href="">Código <img class="git-branco" src="../src/img/github-branco.svg" alt="GitHub"></a>
+                            <a class="btn2" href="">Demo <img class="go-preto" src="../src/img/go.svg" alt="Site Live"></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="contact-container">
+    <div class="contact-container" id="contact">
         <h2 class="contact-header">Contato</h2>
         <div class="contact">
             <h3 class="contact-sub-header">Entre em contato comigo!</h3>
@@ -107,6 +115,16 @@
                 </div>
             </div>
         </div>
+    </div>
+    </div>
+    <div class="footer-col2">
+    </div>
+    <div class="footer-copy">
+        <div class="footer-icons">
+            <a href=""><img class="footer-icons hvr-grow" src="../src/img/github-footer.svg" alt="Logo Linkedin Branca" title="Linkedin"></a>
+            <a href=""><img class="footer-icons hvr-grow" src="../src/img/linkedin-footer.svg" alt="Logo GitHub Branca" title="GitHub"></a>
+        </div>
+        <p class="footer-txt">© João Paulo Coimbra</p>
     </div>
 </body>
 <script src="../src/js/script.js"></script>
