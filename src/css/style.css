@@ -170,6 +170,13 @@ a{
     margin-bottom: 35px;
     flex-direction: row-reverse;
 }
+.container-project3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 70px;
+}
 .clip{
     width: 430px;
     height: 230px;
