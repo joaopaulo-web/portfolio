@@ -1,5 +1,5 @@
 <?php
-
+/*
     $nome = $_POST['nome'];
     $telefone = $_POST['telefone'];
     $email = $_POST['email'];
@@ -24,7 +24,7 @@
 
 
 
-/*
+
 if (isset($_POST['enviar'])){
     $nome = $_POST['nome'];
     $telefone = $_POST['telefone'];
