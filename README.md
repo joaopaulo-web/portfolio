@@ -31,7 +31,7 @@ O meu portfólio pessoal inclui as seguintes funcionalidades:
 - Oferecer links para meu perfil em redes sociais e GitHub, assim como links para visualização dos projetos;
 
 ## Como Utilizar
-Para visualizar o meu portfólio pessoal, basta acessar [este link](https://www.pexels.com/pt-br/) em seu navegador web.
+Para visualizar o meu portfólio pessoal, basta acessar [este link](https://joaopauloweb-portfolio.netlify.app/) em seu navegador web.
 
 ### Se você deseja executar o projeto localmente, siga estas etapas:
 
@@ -55,6 +55,7 @@ Sinta-se à vontade para explorar o código-fonte, ou entrar em contato comigo p
 Se gostou do conteúdo, sinta-se a vontade para entrar em contato pelo link ou pelo email:
 
 Linkedin:www.linkedin.com/in/joão-paulo-coimbra-95722122b
+
 Email: [joaopaulocoimbra2013@gmail.com](mailto:joaopaulocoimbra2013@gmail.com)
 
 Obrigado por visitar o meu portfólio pessoal!
