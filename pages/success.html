@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>João Paulo - Web Frontend</title>
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../src/css/style-sucess.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="card">
+            <div class="header">
+                <h1>Tudo certo!</h1>
+            </div>
+            <div class="body">
+                <p>Seu contato foi recebido e em breve entraremos em contato!</p>
+            </div>
+            <a id="back-link" href="https://joaopauloweb-portfolio.netlify.app/"> ← Volte para o site</a>
+        </div>
+    </div>
+    <script>
+        (function() {
+            if (document.referrer && document.location.host && document.referrer.match(new RegExp("^https?://" + document.location.host))) {
+                document.getElementById("back-link").setAttribute("href", document.referrer);
+            }
+        })();
+    </script>
+</body>
