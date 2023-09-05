@@ -38,7 +38,7 @@ Para visualizar o meu portfólio pessoal, basta acessar [este link](https://www.
 Clone este repositório em sua máquina local utilizando o seguinte comando:
 
 ``
-git clone https://github.com/seu-usuario/meu-portfolio.git
+git clone https://github.com/joaopaulo-web/portfolio.git
 ``
 
 Navegue até a pasta do projeto:
