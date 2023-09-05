@@ -180,7 +180,7 @@ a{
 .clip{
     width: 430px;
     height: 230px;
-    border: 2px solid;
+    border: 1px solid;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
     cursor: pointer;
