@@ -123,10 +123,15 @@ a{
     text-align: justify;
     font-weight: 300;
 }
-.uses, .uses2, .uses3{
+.uses, .uses3{
     display: flex;
     align-items: center;
     gap: 33px;
+}
+.uses2{
+    display: flex;
+    align-items: center;
+    gap: 11px;
 }
 .project1-uses{
     font-weight: 600;
