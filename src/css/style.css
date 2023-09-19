@@ -344,12 +344,15 @@ footer{
 .menu-nav2-mobile{
     display: none;
 }
+.slider-mobile{
+    display: none;
+}
+.manual-navigation{
+    display: none;
+}
 
 /*Até 730px, as regras abaixo irão ser aplicadas*/
 @media screen and (max-width: 730px){
-    body {
-        background: red;
-    }
     button{
         border: none;
     }
@@ -403,7 +406,6 @@ footer{
         align-items: center;
         justify-content: center;
         margin-bottom: 80px;
-        background: blue;
         flex-direction: column-reverse;
     }
     .content-main{
@@ -416,9 +418,11 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 40px;
     }
     .content-col2{
         justify-content: center;
+        gap: 50px;
     }
     .content-header{
         font-size: 2rem;
@@ -436,6 +440,58 @@ footer{
         text-align: center;
     }
     .sociais-icon{
-        width: 45px;
+        width: 55px;
+    }
+    .skills-header, .projects-header, .about-header, .contact-header{
+        margin: 0 17px 35px 17px;
+        font-size: 1.7rem;
+    }
+    .about-me{
+        gap: 0;
+    }
+    .about-img{
+        display: none;
+    }
+    .about-txt{
+        width: 85%;
+    }
+    .slider-mobile{
+        display: block;
+    }
+    .icons-skills{
+        display: none;
+    }
+    .manual-navigation{
+        display: block;
+    }
+    .slider-mobile{
+        display: flex;
+        margin: 0 auto;
+        width: 85%;
+        height: 150px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .slider2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        width: 80%;
+    }
+    .container-projects{
+        margin-top: 20px;
+    }
+    .footer-copy{
+        gap: 100px;
     }
 }
