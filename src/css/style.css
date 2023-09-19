@@ -11,6 +11,10 @@
     font-family: "Titillium Web", sans-serif;
     scroll-behavior: smooth;
 }
+::selection{
+    background: #888888;
+    color: white;
+}
 body {
     background: linear-gradient(90deg, #ffffff, #ececec);
 }
