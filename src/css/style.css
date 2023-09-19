@@ -388,7 +388,7 @@ footer{
     .icon{
         width: 33px;
         margin-top: 5px;
-        background: transparent;
+        background: #ececec;
     }
     .mobile-aside{
         display: none;
