@@ -183,7 +183,7 @@ a{
     align-items: center;
     justify-content: center;
     gap: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
     flex-direction: row-reverse;
 }
 .container-project4{
@@ -358,11 +358,18 @@ footer{
 .manual-navigation{
     display: none;
 }
+.container-projects-page2, .btn-radio, .btn-radio-previous,.container-project-1-page2{
+    display: none;
+}
+.clip-img{
+    display: none;
+}
 
 /*Até 730px, as regras abaixo irão ser aplicadas*/
 @media screen and (max-width: 730px){
     button{
         border: none;
+        background: transparent;
     }
     .nav-container{
         display: none;
@@ -393,7 +400,16 @@ footer{
     .icon{
         width: 33px;
         margin-top: 5px;
-        background: #ececec;
+        background: transparent;
+    }
+    .container-projects-page2{
+        display: none;
+    }
+    .appears{
+        display: block;
+    }
+    .btn-radio-previous{
+        display: none;
     }
     .mobile-aside{
         display: none;
@@ -402,12 +418,27 @@ footer{
         border-top: 1px solid #0000002b;
         padding: 10px;
     }
+    .open{
+        display: flex;
+    }
+    .container-projects-page2, .btn-radio{
+        display: block;
+    }
+    .btn-container{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    .btn-radio{
+        font-size: 1.2rem;
+        background: #cecece;
+        padding: 10px;
+        border-radius: 9px;
+        box-shadow: rgb(0 0 0 / 43%) 0px 3px 3px 0;
+    }
     .menu-nav2-aside{
         display: flex;
         gap: 30px;
-    }
-    .open{
-        display: flex;
     }
     .divider{
         padding-bottom: 70px;
@@ -510,10 +541,6 @@ footer{
         flex-direction: column;
         gap: 0;
     }
-    .clip{
-        width: 320px;
-        height: 215px;
-    }
     .project1-header{
         font-size: 1.6rem;
         margin-bottom: 25px;
@@ -525,6 +552,20 @@ footer{
         justify-content: center;
         width: 95%;
         margin-top: 35px;
+    }
+    .project1{
+        display: block;
+    }
+    .clip{
+        display: none;
+    }
+    .clip-img{
+        display: flex;
+        width: 320px;
+        height: 230px;
+        border: 1px solid;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 5px;
     }
     .uses, .uses2, .uses3, .uses4{
         display: flex;
