@@ -26,9 +26,5 @@ function appears() {
         containerPage2.style.display = "flex";
         containerPage3.style.display = "flex";
         btnRadio.innerHTML = "Página Anterior";
-
-        if (containerPage2.style.display === "flex"){
-
-        }
     }
 }
